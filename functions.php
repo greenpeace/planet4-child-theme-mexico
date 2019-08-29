@@ -11,3 +11,9 @@ function enqueue_child_styles() {
 
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', [], $css_creation );
 }
+
+add_action( 'wp_enqueue_scripts', 'enqueue_child_scripts',  100);
+
+function enqueue_child_scripts() {
+	wp_enqueue_script( 'hubspot', 'https://js.hs-scripts.com/2617486.js', [], '1.0', true );
+}
