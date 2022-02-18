@@ -12,36 +12,15 @@ Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-mexico
 */
 
-/* --- Happy point --- */
-.happy-point-block-wrap .happy-point {
-  padding-top: 20px;
-}
-
-.happy-point-block-wrap .happy-point iframe {
-  height: 430px;
-}
-
-.gpmx-button {
-  display: none;
-}
-
-@media (min-width: 1200px) {
-  .happy-point-block-wrap .happy-point {
-    padding-top: 180px !important;
+/* Happy point */
+@media (max-width: 768px) {
+  .happy-point-block-wrap .mt-5 {
+    margin-top: 0rem !important;
   }
 }
-
-@media (min-width: 768px) {
-  .happy-point-block-wrap .happy-point {
-    padding-top: 130px;
-  }
-
-  .gpmx-button {
-    display: block;
-    position: fixed !important;
-    top: 75%;
-    right: 0%;
-  }
+.happy-point-block-wrap .actions {
+  margin-top: 0px !important;
+  padding: 2px 0px !important;
 }
 
 /* ---  Hubspot blog form --- */
