@@ -13,21 +13,11 @@ Text Domain: planet4-child-theme-mexico
 */
 
 /* Happy point */
-@media (max-width: 768px) {
-  .happy-point-block-wrap .mt-5 {
-    margin-top: 0rem !important;
-  }
-}
-.happy-point-block-wrap .actions {
-  margin-top: 0px !important;
-  padding: 2px 0px !important;
-}
+@media (max-width: 768px) { .happy-point-block-wrap .mt-5 { margin-top: 0rem !important; } }
+.happy-point-block-wrap .hs-form fieldset { max-width: 100% !important; }
 
-/* ---  Hubspot blog form --- */
-.hbspt-form {
-  margin-bottom: 50px;
-}
-
+/* Hubspot blog form */
+.hbspt-form { margin-bottom: 50px; }
 .hs-form .hs-button {
   background: #ff7a59;
   border-color: #ff7a59;
@@ -46,7 +36,6 @@ Text Domain: planet4-child-theme-mexico
   border-width: 1px;
   padding: 12px 24px;
 }
-
 .hs-form .hs-input {
   width: 100% !important;
   display: inline-block;
@@ -65,33 +54,17 @@ Text Domain: planet4-child-theme-mexico
   -ms-border-radius: 3px;
   border-radius: 3px;
 }
-
 .hs-form label {
   margin-top: .5rem; margin-bottom: .2rem !important;
   font-size: 15px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
-.hs-form ul {
-  list-style: none;
-}
-
-.hs-form ul li label {
-  display: flex;
-}
-
-.hs-form ul li label span {
-  margin-left: 10px;
-}
-
-.hs-form .hs-input[type='checkbox'] {
-  width: 30px !important;
-}
-
-.hs-form .inputs-list {
-  display: grid;
-  grid-template-columns: auto;
-}
-
+.hs-form ul { list-style: none; }
+.hs-form ul li label { display: flex; }
+.hs-form ul li label span { margin-left: 10px; }
+.hs-form .hs-input[type='checkbox'] { width: 30px !important; }
+.hs-form .inputs-list { display: grid; grid-template-columns: auto; }
+.hs-form legend { font-size: 15px; font-family: 'Roboto'; }
+.hs-form label.hs-error-msg { color: #ff0033; }
 @media (min-width: 768px) {
   .hs-form .inputs-list {
     display: grid; grid-template-columns: 200px 200px 200px;
@@ -99,21 +72,14 @@ Text Domain: planet4-child-theme-mexico
   }
 }
 
-.hs-form legend {
-  font-size: 15px;
-  font-family: 'Roboto';
-}
-
 /* ---  Custom quote --- */
 .wp-block-quote p {
   font-size: 1.6rem !important;
 }
-
 .wp-block-quote cite {
   font-size: 1.5rem !important;
   font-weight: bold;
 }
-
 .wp-block-quote {
   border-left: 4px solid black;
   padding-left: 15px;
@@ -123,7 +89,6 @@ Text Domain: planet4-child-theme-mexico
 .gpmx-table-content li {
   padding-top: 1px !important;
 }
-
 .gpmx-table-content h5 {
   padding: 1px 0 1px 1px;
   font-size: 1rem !important;
@@ -134,22 +99,16 @@ Text Domain: planet4-child-theme-mexico
   color: #1A1A1A !important;
   text-shadow: none !important;
 }
-
 .timeline-block .tl-slide.tl-full-image-background h3.tl-headline-date {
   color: #1A1A1A !important;
   text-shadow: none !important;
 }
-
 .timeline-block .tl-slide.tl-full-image-background .tl-text p {
   color: #1A1A1A !important;
   text-shadow: none !important;
 }
-
 .timeline-block .tl-slide.tl-full-image-background .tl-caption {
   color: #1A1A1A !important;
   text-shadow: none !important;
 }
-
-.tl-storyslider {
-  height: 400px !important;
-}
+.tl-storyslider { height: 400px !important; }
